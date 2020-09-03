@@ -1,0 +1,9 @@
+2019-11-11T14:44:14|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 452, in on_edit_finished
+    self.update_value(widget.text())
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 241, in update_value
+    self.hardware_set_func(self.val)
+  File "C:\Users\Admin\Desktop\MFCS_python_old\PumpDevice.py", line 62, in set_pressure_channel
+    C_error = lib_mfcs.mfcs_set_auto(c_ulonglong(self.mfcsHandle),1,c_float(P))
+TypeError: must be real number, not str
+

@@ -1,0 +1,7 @@
+2019-11-19T17:24:58|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 160, in <lambda>
+    op_button.clicked.connect(lambda checked, f=op_func: f())
+  File "C:\Users\Admin\Desktop\MFCS_python_old\PumpHardware.py", line 76, in setall_zeropressure
+    error = lib_mfcs.mfcs_set_auto(c_ulonglong(MFCSDevice.mfcsHandle),0,c_float(0))
+AttributeError: type object 'MFCSDevice' has no attribute 'mfcsHandle'
+

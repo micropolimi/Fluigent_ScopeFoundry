@@ -1,0 +1,21 @@
+2019-11-06T16:26:17|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MFCS_python_old\Camera&PumpApp.py", line 186, in <module>
+    app = HamamatsuMFCSApp(sys.argv)
+  File "C:\Users\Admin\Desktop\MFCS_python_old\Camera&PumpApp.py", line 24, in __init__
+    super().__init__(*kwds) # *kwds is needed since in the main we pass as argument sys.argv. Without
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\base_app.py", line 332, in __init__
+    self.setup()
+  File "C:\Users\Admin\Desktop\MFCS_python_old\Camera&PumpApp.py", line 144, in setup
+    self.add_hardware(MFCSHardware(self))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 80, in __init__
+    self.setup()
+  File "C:\Users\Admin\Desktop\MFCS_python_old\PumpHardware.py", line 19, in setup
+    unit = 'mbar')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 28, in add_logged_quantity
+    return self.settings.New(name, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 1108, in New
+    return self.Add(lq)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 1115, in Add
+    assert not (name in self._logged_quantities)
+AssertionError
+

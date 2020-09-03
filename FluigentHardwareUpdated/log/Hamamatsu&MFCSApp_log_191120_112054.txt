@@ -1,0 +1,2 @@
+2019-11-20T11:21:06|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-11-20T11:21:44|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware

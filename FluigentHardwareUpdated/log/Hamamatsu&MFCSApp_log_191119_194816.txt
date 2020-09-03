@@ -1,0 +1,8 @@
+2019-11-19T19:48:23|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-11-19T19:48:41|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 160, in <lambda>
+    op_button.clicked.connect(lambda checked, f=op_func: f())
+  File "C:\Users\Admin\Desktop\MFCS_python_old\PumpHardware.py", line 64, in apply_saved_pressure
+    self.MFCS.set_pressure_1channel(a)
+NameError: name 'a' is not defined
+

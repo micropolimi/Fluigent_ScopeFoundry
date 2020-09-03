@@ -1,0 +1,14 @@
+2019-11-19T18:32:39|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\MFCS_python_old\Camera&PumpApp.py", line 181, in <module>
+    app = HamamatsuApp(sys.argv)
+  File "C:\Users\Admin\Desktop\MFCS_python_old\Camera&PumpApp.py", line 24, in __init__
+    super().__init__(*kwds) # *kwds is needed since in the main we pass as argument sys.argv. Without
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\base_app.py", line 332, in __init__
+    self.setup()
+  File "C:\Users\Admin\Desktop\MFCS_python_old\Camera&PumpApp.py", line 136, in setup
+    from PumpHardware import MFCSHardware
+  File "C:\Users\Admin\Desktop\MFCS_python_old\PumpHardware.py", line 17
+    spinbox_step = 0.01,spinbox_step = 0.1,spinbox_decimals = 4 spinbox_decimals = 3, initial = 0.01,
+                                                                               ^
+SyntaxError: invalid syntax
+

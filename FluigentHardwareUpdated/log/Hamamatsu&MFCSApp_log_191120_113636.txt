@@ -1,0 +1,12 @@
+2019-11-20T11:37:19|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-11-20T11:37:23|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-11-20T11:37:54|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 160, in <lambda>
+    op_button.clicked.connect(lambda checked, f=op_func: f())
+TypeError: setall_zeropressure() missing 1 required positional argument: 'self'
+
+2019-11-20T11:37:56|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 160, in <lambda>
+    op_button.clicked.connect(lambda checked, f=op_func: f())
+TypeError: setall_zeropressure() missing 1 required positional argument: 'self'
+

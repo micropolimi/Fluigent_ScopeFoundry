@@ -1,0 +1,10 @@
+2019-11-13T11:22:09|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 241, in update_value
+    self.hardware_set_func(self.val)
+TypeError: set_pressure_channel() missing 1 required positional argument: 'ch'
+
+2019-11-13T11:22:14|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 241, in update_value
+    self.hardware_set_func(self.val)
+TypeError: set_pressure_channel() missing 1 required positional argument: 'ch'
+

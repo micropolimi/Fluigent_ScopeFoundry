@@ -1,0 +1,21 @@
+2019-11-19T17:23:36|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 160, in <lambda>
+    op_button.clicked.connect(lambda checked, f=op_func: f())
+  File "C:\Users\Admin\Desktop\MFCS_python_old\PumpHardware.py", line 72, in setall_zeropressure
+    lib_mfcs = ctypes.WinDLL('mfcs_c_64.dll')
+NameError: name 'ctypes' is not defined
+
+2019-11-19T17:23:41|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 160, in <lambda>
+    op_button.clicked.connect(lambda checked, f=op_func: f())
+  File "C:\Users\Admin\Desktop\MFCS_python_old\PumpHardware.py", line 72, in setall_zeropressure
+    lib_mfcs = ctypes.WinDLL('mfcs_c_64.dll')
+NameError: name 'ctypes' is not defined
+
+2019-11-19T17:23:45|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 160, in <lambda>
+    op_button.clicked.connect(lambda checked, f=op_func: f())
+  File "C:\Users\Admin\Desktop\MFCS_python_old\PumpHardware.py", line 72, in setall_zeropressure
+    lib_mfcs = ctypes.WinDLL('mfcs_c_64.dll')
+NameError: name 'ctypes' is not defined
+
